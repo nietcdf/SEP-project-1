@@ -1,3 +1,3 @@
 #!/bin/bash
-mvn package -f ./../hello-spring_clone_runner/pom.xml
+mvn package -f ./../SEP-project-1/pom.xml
 vagrant provision --provision-with runner
