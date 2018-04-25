@@ -11,6 +11,7 @@ public class HelloController {
 	@RequestMapping(method = RequestMethod.GET)
 	public String printWelcome(ModelMap model) {
 		model.addAttribute("message", "Spring MVC hello World - for real!!!");
+		model.addAttribute("message1", "sPRING mvc HELLO wORLD - for real!!!");
 		return "hello";
 	}
 }
