@@ -12,6 +12,7 @@
 		<maven.compiler.source>1.7</maven.compiler.source>
 		<maven.compiler.target>1.7</maven.compiler.target>
 	</properties>
+	
 
 	<dependencies>
 		<!-- Spring 3 dependencies -->
@@ -33,6 +34,20 @@
 	</dependencies>
 
 	<build>
+	<plugins>
+		<plugin>
+		<groupId>org.apache.tomcat.maven</groupId>
+		<artifactId>tomcat7-maven-plugin</artifactId>
+		<version>2.2</version>
+		<configuration>
+			<url>http://localhost:8080/manager/text</url>
+			<server>tomcat</server>
+			<path>/hello-spring</path>
+			<username>admin</username>
+			<password>admin</password>
+		</configuration>
+		</plugin>
+	</plugins>
 		<finalName>hello-spring</finalName>
 	</build>
 </project>
