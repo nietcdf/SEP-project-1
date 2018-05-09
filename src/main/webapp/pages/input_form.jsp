@@ -11,7 +11,7 @@
 <body>
 
 
-  <div class="page-header" style="    background-color: green;margin: -21px 0 20px;color: whitesmoke;padding-top: 21px;">
+  <div class="page-header" style="    background-color: red;margin: -21px 0 20px;color: whitesmoke;padding-top: 21px;">
     <h1><center>Events Tracking Application</h1>    </center>  
   </div>
 			
