@@ -12,7 +12,7 @@
 
 
   <div class="page-header" style="    background-color: red;margin: -21px 0 20px;color: whitesmoke;padding-top: 21px;">
-    <h1><center>Events Tracking Application</h1>    </center>  
+    <h1><center>SE FINAL EXAM DEMO</h1>    </center>  
   </div>
 			
 					<form name=f1 action="handler.htm" method="post">
